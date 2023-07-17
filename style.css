@@ -1,0 +1,257 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* Common style */
+.text-light-gray
+{
+    color: #727272;
+}
+
+                /* Navber Style */
+.section-title
+{
+    color:  #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+header{
+    background: #ff900e1a;;
+    padding: 50px 240px;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+   
+}
+nav li a{
+    text-decoration: none;
+    color:  #424242;
+}
+            /* Header style */
+.banner-content{
+    max-width: 800px;
+    color:  #131313;
+    text-align: center;
+   margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 0px;
+}
+.banner-img{
+   width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    margin: 30px auto;
+}
+.banner-img img{
+    width: 100%;
+}
+            /* Responsiver by banner section */
+
+                    /* main section Style*/
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+                    /* teams style */
+.teams-container
+{
+display: flex;
+align-items: center;
+}
+.teams-img-container
+{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+ font-size: 1rem;
+}
+
+    /*Quick list style */
+    /* problem */
+ .teams-contant{
+        margin: 0 auto;
+    }
+    .teams-title{
+    width: 468px;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.Quick-list {
+    font-weight: 500;
+    color: #727272;
+}
+.teams-title, .of-Our {
+    color:  #131313;
+    font-weight: 700;
+}
+.teams-title .text-Features{
+    color: #FF900E;
+     font-weight: 700;
+}
+.teams-discription{
+    width: 537px;
+    font-size: 1rem;
+}
+ /*Quick list end */
+
+ 
+ /* Faeutres section */
+.feautres{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.feautres .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feautres-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #0000000f;
+}
+.feautres-img img{
+    height: 90%;
+    margin-left: 90px;
+}
+
+.ten-yars-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 340px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.ten-yars-badge h2{
+    font-size: 4rem;
+    margin-top: 0;
+}
+.ten-yars-badge p{
+    font-size: 1.5rem;
+}
+            /* Faeutres section end */
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container .card{
+    border-radius:8px ;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-card-container .card-starts{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Our-Sponspors{
+    text-align: center;
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    
+
+}
+.Our-Sponspors-text, .text-light-gray
+ {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -20px;
+   
+
+}
+.sponser-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap:20px;
+    align-items: center;
+}
+
+
+
+
+
+/* mobile device */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+   
+    nav, 
+    .tems-container,
+    .feautres,
+    .facts-card-container
+    {
+        flex-direction: column;
+    }
+    .feautres-img img{
+        width: 90%;
+        margin-left: 0;
+    }
+    .ten-yars-badge{
+        position: static;
+        max-width: 300px;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-contant, .facts-card-container{
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    .facts-card-container{
+        gap: 20px;
+    }
+}
+/* tablet or midum devices */
+/* @media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav, .tems-conrainer {
+        flex-direction: column;
+    }
+} */
