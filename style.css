@@ -82,6 +82,8 @@ main{
 {
 display: flex;
 align-items: center;
+margin-left: 268px;
+
 }
 .teams-img-container
 {
@@ -93,7 +95,7 @@ grid-template-columns: repeat(2, 1fr);
     /*Quick list style */
     /* problem */
  .teams-contant{
-        margin: 0 auto;
+        margin-left: 30px;
     }
     .teams-title{
     width: 468px;
@@ -102,20 +104,22 @@ grid-template-columns: repeat(2, 1fr);
 }
 
 .Quick-list {
-    font-weight: 500;
     color: #727272;
 }
-.teams-title, .of-Our {
+.of-Our {
     color:  #131313;
     font-weight: 700;
 }
-.teams-title .text-Features{
+.text-Features{
     color: #FF900E;
      font-weight: 700;
 }
 .teams-discription{
+   color:#727272;
     width: 537px;
     font-size: 1rem;
+    margin-top: -48px;
+   
 }
  /*Quick list end */
 
@@ -161,10 +165,26 @@ grid-template-columns: repeat(2, 1fr);
     font-size: 1.5rem;
 }
             /* Faeutres section end */
+.section-title-some{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+   
 
+}
+.section-title-text{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+    margin-top: -30px;
+   
+ 
+}
 .facts-card-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 38px;
 }
 .facts-card-container .card-title{
     font-weight: 600;
@@ -208,6 +228,20 @@ grid-template-columns: repeat(2, 1fr);
     gap:20px;
     align-items: center;
 }
+                /* footer section */
+
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.footer-content{
+    color:  #424242;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+  
+
+}
 
 
 
@@ -237,9 +271,11 @@ grid-template-columns: repeat(2, 1fr);
     .teams-img-container{
         grid-template-columns: 1fr;
     }
+   
     .teams-contant, .facts-card-container{
         padding-right: 20px;
         padding-left: 20px;
+        
         
     }
     .facts-card-container{
